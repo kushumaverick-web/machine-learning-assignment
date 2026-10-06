@@ -1,0 +1,30 @@
+# Applied Machine Learning Portfolio
+
+This repository contains practical assignments and synthetic datasets completed for the Master of Science in Data Science program.
+
+## Assignments Included
+
+### 1. Simple Linear Regression
+* **Description:** Predicting continuous variables using simple linear regression. 
+* **Dataset:** `lt_house_reality_data_new.csv` (Synthetic data modeling house sizes vs. prices to demonstrate positive correlation).
+* **Metrics Tracked:** MSE, R2 Score, and Regression Line Visualization.
+
+### 2. Logistic Regression
+* **Description:** Binary classification model predicting customer churn based on numerical features (Age, Tenure, Spend, etc.).
+* **Dataset:** `ecommerce_customer_churn.csv` (Synthetic E-commerce data).
+* **Metrics Tracked:** Accuracy, Classification Report, and Confusion Matrix.
+
+### 3. K-Nearest Neighbors (KNN)
+* **Description:** Multi-class classification using the KNN algorithm (K=5).
+* **Dataset:** `human_iris_eye_color.csv` (Custom synthetic dataset classifying human eye color based on Melanin levels and Stroma density).
+* **Metrics Tracked:** Accuracy and Confusion Matrix Visualization.
+
+### 4. Computer Vision: Eye Image Classification
+* **Description:** An end-to-end image processing pipeline utilizing OpenCV to resize, flatten, and classify images of human eyes. Evaluates and compares Linear Regression, Logistic Regression, and K-Nearest Neighbors (K=5) on flattened 64x64 pixel arrays (4,096 features).
+* **Dataset:** `Eye Iris CASIA` (Kaggle image dataset containing 'eye' and 'no eye' classes).
+* **Metrics Tracked:** Accuracy, Custom Confusion Matrices (Seaborn), and Linear Regression Decision Threshold Visualization.
+
+### 5. Naive Bayes Classification
+* **Description:** Binary classification model applying Gaussian Naive Bayes to predict the presence of heart disease based on clinical comparison parameters.
+* **Dataset:** `heart.csv` (UCI Cleveland Heart Disease dataset from Kaggle).
+* **Metrics Tracked:** Accuracy, Classification Report, Confusion Matrix, ROC Curve (AUC), and Gaussian Feature Distribution (KDE Plot).
